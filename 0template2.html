@@ -1,0 +1,78 @@
+<!doctype html>
+<html lang="es">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Edita tu CV — Jobbox</title>
+  <meta name="description" content="Recreación HTML de la pantalla 0template2 del sistema visual Jobbox.">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700;800&amp;display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="./jobbox_fuente_original.css">
+  <link rel="stylesheet" href="./jobbox_templates.css">
+</head>
+<body class="theme-jobbox">
+  <div class="screen">
+    <aside class="sidebar" aria-label="Navegación principal">
+      <button class="collapse-button" type="button" aria-label="Contraer menú">
+        <svg class="icon small" aria-hidden="true"><use href="./jobbox-icons.svg#chevron-left"/></svg>
+      </button>
+
+      <a class="brand" href="#" aria-label="Jobbox, inicio">
+        <img src="./jobbox-logo.png" alt="jobbox.ai">
+      </a>
+
+      <p class="section-label">Módulo corporativo</p>
+      <nav>
+        <ul class="nav-list">
+          <li><a class="nav-link" href="#" aria-current="page"><svg class="icon" aria-hidden="true"><use href="./jobbox-icons.svg#grid"/></svg><span>Inicio</span></a></li>
+          <li><a class="nav-link" href="#"><svg class="icon" aria-hidden="true"><use href="./jobbox-icons.svg#document"/></svg><span>Mi CV</span></a></li>
+          <li><a class="nav-link" href="#"><svg class="icon" aria-hidden="true"><use href="./jobbox-icons.svg#id-card"/></svg><span>Mi LinkedIn</span></a></li>
+          <li><a class="nav-link" href="#"><svg class="icon" aria-hidden="true"><use href="./jobbox-icons.svg#video"/></svg><span>Mis Entrevistas</span></a></li>
+          <li><a class="nav-link" href="#"><svg class="icon" aria-hidden="true"><use href="./jobbox-icons.svg#star"/></svg><span>Dónde Brillo</span></a></li>
+          <li><a class="nav-link" href="#"><svg class="icon" aria-hidden="true"><use href="./jobbox-icons.svg#search"/></svg><span>Mis Oportunidades</span></a></li>
+          <li><a class="nav-link" href="#"><svg class="icon" aria-hidden="true"><use href="./jobbox-icons.svg#calendar"/></svg><span>Mi Agenda</span></a></li>
+        </ul>
+      </nav>
+
+      <div class="divider"></div>
+      <p class="section-label">Otra ruta</p>
+      <a class="nav-link route-link" href="#">
+        <svg class="icon" aria-hidden="true"><use href="./jobbox-icons.svg#rocket"/></svg>
+        <span>Ruta Emprendedora</span>
+        <svg class="icon route-arrow" aria-hidden="true"><use href="./jobbox-icons.svg#arrow-up-right"/></svg>
+      </a>
+
+      <div class="divider"></div>
+      <nav class="account-nav" aria-label="Cuenta">
+        <a class="nav-link" href="#"><svg class="icon" aria-hidden="true"><use href="./jobbox-icons.svg#user"/></svg><span>Mi perfil</span></a>
+        <a class="nav-link" href="#"><svg class="icon" aria-hidden="true"><use href="./jobbox-icons.svg#medal"/></svg><span>Mi suscripción</span></a>
+      </nav>
+
+      <div class="sidebar-footer">
+        <span class="avatar" aria-label="Usuario EA">EA</span>
+        <svg class="icon small" aria-hidden="true"><use href="./jobbox-icons.svg#chevron-right"/></svg>
+      </div>
+    </aside>
+
+    <main class="workspace">
+      <div class="top-tools" aria-label="Utilidades">
+        <button class="top-tool" type="button">
+          <svg class="tool-icon" aria-hidden="true"><use href="./jobbox-icons.svg#feedback"/></svg>
+          <span>Feedback</span>
+        </button>
+        <button class="top-tool jobbi" type="button">
+          <svg class="tool-icon" aria-hidden="true"><use href="./jobbox-icons.svg#chat"/></svg>
+          <span>jobbi · copiloto IA</span>
+        </button>
+      </div>
+
+      <header class="editor-header">
+        <p class="eyebrow">Construye tu historia profesional</p>
+        <h1 class="editor-title">Edita tu CV</h1>
+        <p class="editor-subtitle">Trabaja una sección a la vez y observa los cambios en tiempo real.</p>
+      </header>
+    </main>
+  </div>
+</body>
+</html>
